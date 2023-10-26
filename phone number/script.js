@@ -3,7 +3,7 @@ let getcountry = +prompt("Enter Country code")
 let getusernumber = prompt("Enter phone number")
 
 function checknumber(code, number) {
-  if (code === +7 && number.length === 11) {
+  if (code === +7 && number.length === 9) {
     return true;
   }
     
