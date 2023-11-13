@@ -26,20 +26,19 @@ let workerObj = {
   }
 };
 
-// Obyektin metodlarını çağırmaq və nəticələri çap etmək
-workerObj.infoEmp(); // Taleh Jed Academy-də Tələbədir.
+workerObj.infoEmp(); 
 
-workerObj.salaryinfo(); // Köhnə maaşı 300
+workerObj.salaryinfo(); 
 
-workerObj.ageinfo(); // Köhnə yaş
+workerObj.ageinfo(); 
 
 workerObj.hbd();
-console.log(`Yeni yaş: ${workerObj.age}`); // Yeni yaş: 25
+console.log(`Yeni yaş: ${workerObj.age}`); 
 
-console.log(`Tam ad: ${workerObj.getFullName()}`); // Tam ad: Taleh Aghayev
+console.log(`Tam ad: ${workerObj.getFullName()}`); 
 
 workerObj.upgradeSalary(100);
-console.log(`Yeni maaş: ${workerObj.salary}`); // Yeni maaş: 400
+console.log(`Yeni maaş: ${workerObj.salary}`); 
 
 //   isci obyekti yaradin: employee
 // propert-leri bunlar olsun:
