@@ -1,0 +1,17 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1250px;
+}
+
+#car {
+  width: 300px;
+  height: 150px;
+}
+
+
+#start {
+  display: inline-block;
+}
